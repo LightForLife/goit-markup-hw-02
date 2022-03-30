@@ -12,30 +12,46 @@
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html"><p lang="en">WebStudio</p></a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+    <header class="header">
+      <nav class="header-nav">
+        <a href="./index.html" class="header-logo"
+          ><p lang="en">WebStudio</p></a
+        >
+        <ul class="header-list list">
+          <li class="header-item">
+            <a class="header-link link" href="">Студия</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="" class="link">Контакты</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="list">
+        <li>
+          <a class="header-info link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="header-info link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
     <main>
       <!-- Section-1 -->
-      <section>
-        <h1>Эффективные решения <br />для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения <br />для вашего бизнеса</h1>
+        <button type="button" class="hero-btn">Заказать услугу</button>
       </section>
       <!-- Section-2 -->
-      <section>
+      <section class="features">
         <h2 hidden>преимущества</h2>
-        <ul>
+        <ul class="features-title">
           <li>
             <h3>Внимание к деталям</h3>
             <p>
@@ -69,7 +85,7 @@
       <!-- Section-3 -->
       <section>
         <h2>Чем мы занимаемся</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/box-img-1.jpg"
@@ -99,7 +115,7 @@
       <!-- Section-4 -->
       <section>
         <h2>Наша команда</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/team-card-1.jpg"
@@ -146,7 +162,7 @@
     <footer>
       <a href="./index.html"><p lang="en">WebStudio</p></a>
       <address>
-        <ul>
+        <ul class="list">
           <li>
             <a href="https://goo.gl/maps/2yx1dUXWWij7tJqm9" target="_blank">
               г. Киев, пр-т Леси Украинки, 26
