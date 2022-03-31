@@ -1,8 +1,9 @@
 :root {
-  --header-main-color: #212121;
   --first-main-color: #212121;
   --second-main-color: #757575;
   --btn-color: #f5f4fa;
+  --features-title-color: #212121;
+  --features-text-color: #757575;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -15,6 +16,34 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.contact-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 /* -----------------------Header----------------------- */
@@ -83,6 +112,73 @@ body {
   color: #ffffff;
   cursor: pointer;
   background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
-/* ----------------------Section-2---------------------- */
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #2196f3;
+}
+
+/* ----------------------Features---------------------- */
+
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--features-title-color);
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--features-text-color);
+}
+
+/* ----------------------Service---------------------- */
+
+/* ----------------------Team---------------------- */
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--first-main-color);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-main-color);
+}
+
+/* ----------------------Footer---------------------- */
+.footer {
+  background: #2f303a;
+}
+
+.footer-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-address {
+  color: #ffffff;
+}
+
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
