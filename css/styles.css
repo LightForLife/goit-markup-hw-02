@@ -29,6 +29,7 @@ body {
 }
 
 .contact-text {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -193,3 +194,44 @@ body {
 }
 
 /* -----------------Portfolio-button------------------ */
+
+.btn-primaty {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--portfolio-btn-color);
+}
+
+.btn-primaty:hover,
+.btn-primaty:focus {
+  background: var(--accent-text-color);
+  color: #ffffff;
+}
+
+.btn-primaty.current {
+  background: var(--accent-text-color);
+  color: #ffffff;
+}
+
+/* -----------------Portfolio------------------------- */
+
+.portfolio-title {
+  font-style: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--first-main-color);
+}
+
+.portfolio-text {
+  font-style: inherit;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--second-main-color);
+}
