@@ -4,6 +4,7 @@
   --btn-color: #f5f4fa;
   --features-title-color: #212121;
   --features-text-color: #757575;
+  --accent-text-color: #2196f3;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -71,7 +72,11 @@ body {
 
 .header-link:hover,
 .header-link:focus {
-  color: #2196f3;
+  color: var(--accent-text-color);
+}
+
+.current {
+  color: var(--accent-text-color);
 }
 
 .header-info {
@@ -84,7 +89,7 @@ body {
 
 .header-info:hover,
 .header-info:focus {
-  color: #2196f3;
+  color: var(--accent-text-color);
 }
 /* -----------------------Hero----------------------- */
 .hero {
