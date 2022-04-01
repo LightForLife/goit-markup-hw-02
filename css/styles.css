@@ -1,10 +1,10 @@
 :root {
   --first-main-color: #212121;
   --second-main-color: #757575;
-  --btn-color: #f5f4fa;
   --features-title-color: #212121;
   --features-text-color: #757575;
   --accent-text-color: #2196f3;
+  --portfolio-btn-color: #212121;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -148,6 +148,10 @@ body {
 
 /* ----------------------Team---------------------- */
 
+.team {
+  background: #f5f4fa;
+}
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -187,3 +191,5 @@ body {
 .footer-contact {
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* -----------------Portfolio-button------------------ */
